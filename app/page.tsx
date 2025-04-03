@@ -1,6 +1,8 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Trophy, Users, Medal, ArrowRight } from "lucide-react";
 import Link from "next/link";
+import "./globals.css";
+
 
 export default function Home() {
   const features = [
